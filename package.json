@@ -1,0 +1,26 @@
+{
+  "name": "yumi",
+  "version": "1.0.0",
+  "description": "Share your Creator Vision with the populace.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --env-file=app.env"
+  },
+  "author": "Mal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "mongodb": "^6.13.0",
+    "mongoose": "^8.10.0",
+    "pug": "^3.0.3"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.5.0",
+    "nodemon": "^3.1.9",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  }
+}

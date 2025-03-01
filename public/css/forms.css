@@ -1,0 +1,14 @@
+.signin-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+}
+
+.signin-form input {
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+}

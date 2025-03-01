@@ -1,0 +1,88 @@
+
+.hide {
+    display: none;
+    transition: display 0.5s ease-in-out;
+}
+
+.no-overflow {
+    overflow: hidden;
+}
+
+
+/*.doto-<uniquifier> {*/
+/*           font-family: "Doto", serif;*/
+/*           font-optical-sizing: auto;*/
+/*           font-weight: <weight>;*/
+/*           font-style: normal;*/
+/*           font-variation-settings:*/
+/*                   "ROND" 0;*/
+/*       }*/
+
+.space-mono-regular {
+    font-family: "Space Mono", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.space-mono-bold {
+    font-family: "Space Mono", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.space-mono-regular-italic {
+    font-family: "Space Mono", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.space-mono-bold-italic {
+    font-family: "Space Mono", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #c7215abf;
+    border-radius: 20px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.filters-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fdfdfd;
+}
+
+.filters-container h3 {
+    font-size: 20px;
+}
+
+.filters {
+    /*position: sticky;*/
+    /*top: 10px;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.filters select {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #c7215abf;
+    border-radius: 20px;
+}
+

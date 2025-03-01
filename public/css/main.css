@@ -1,0 +1,325 @@
+html {
+    font-size: 62.5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p, a, li, span {
+    margin: 0;
+    padding: 0;
+}
+
+a li {
+    font-size: 18px;
+    font-weight: 600;
+    color: #09153a;
+    list-style: none;
+    padding: 0;
+    margin: 5px;
+}
+
+body {
+    background: #fdfdfd;
+    color: #181818;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c7215abf;
+    background-image: url("../media/images/yumi-logo.png");
+    background-repeat: repeat;
+    background-size: 115px auto;
+    height: 100px;
+    padding: 0 10px;
+}
+
+.site-brand .site-logo {
+    width: 75px;
+    height: auto;
+}
+
+.pulse-logo {
+    height: 30rem;
+    width: 30rem;
+    animation: pulse 4s infinite ease;
+}
+
+@keyframes pulse {
+    0% {
+        filter: invert(0);
+    }
+    50% {
+        filter: invert(50);
+    }
+    100% {
+        filter: invert(100);
+    }
+    to {
+        filter: invert(0);
+    }
+}
+
+/* HOMEPAGE */
+
+.home--hero {
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(180deg, #95384838, #dd092e96), center / cover url('../media/images/yumi-hero.jpg');
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+.home__inner {
+    padding: 2rem;
+}
+
+h1.home__inner-title {
+    font-size: 3rem;
+}
+
+.home__inner-about-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.home__inner-about-content span {
+    font-size: 2.2rem;
+}
+
+.home__inner-about-content p {
+    font-size: 1.8rem
+}
+
+.home__inner-monthly-creator {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    margin: 3rem 1rem;
+}
+
+.home__inner-monthly-creator-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home__inner-monthly-creator-cta {
+    background: center / 250px 250px no-repeat url('../media/images/yumi-logo.png');
+    height: 100%;
+}
+
+.home__inner-monthly-creator-cta-title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.home__inner-monthly-creator-cta-body p {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+/* HOMEPAGE END */
+
+    .user-information {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+    .user-information-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        font-size: 18px;
+        color: #181818;
+    }
+
+    .user-banner {
+        background: url('../media/images/tempbanner.jpg');
+        width: 100%;
+        height: 300px;
+        max-width: 100%;
+    }
+
+    .user-profile-image {
+        width: 250px;
+        height: auto;
+        outline: 10px solid #FF70CA;
+        border: 10px solid #181818;
+        border-radius: 50%;
+        max-width: 100%;
+    }
+
+    .user-about {
+        width: 50%;
+        text-align: justify;
+        margin: 5px;
+    }
+
+
+    #echelons {
+        font-size: 16px;
+        color: #09153a;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../media/images/yumi-logo.png");
+        background-repeat: repeat;
+        background-size: 150px 150px;
+        padding: 20px;
+        margin: 15px 0;
+    }
+
+    #echelons h2 {
+        color: #fdfdfd;
+        text-align: center;
+        font-size: 36px;
+        padding: 10px;
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+    }
+
+    .echelon-prices {
+        display: grid;
+        grid-template-columns: repeat(3, 300px);
+        grid-template-rows: auto;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        padding: 10px;
+    }
+
+    .echelon-prices div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        border-radius: 10px;
+        filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.55));
+        padding: 10px;
+    }
+
+    .echelon-prices div img {
+        width: 175px;
+        height: auto;
+    }
+
+
+    .my-feed__visionary-list {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../media/images/yumi-logo.png");
+        background-repeat: repeat;
+        /*background-size: 150px 150px;*/
+        width: 100%;
+        height: fit-content;
+        padding-bottom: 2rem;
+    }
+
+    .my-feed__visionary-list-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 3.5rem;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .my-feed__visionary-list__item {
+        width: 7.5rem;
+        height: 7.5rem;
+    }
+
+.my-feed__visionary-list__item-image {
+    display: block;
+    margin: 2rem auto;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    transition: outline-offset .2s ease-in-out;
+}
+
+.my-feed__visionary-list__item-image:hover {
+    cursor: pointer;
+}
+
+.my-feed__visionary-list__item-image:active {
+    outline: 4px solid #FF70CA;
+    outline-offset: 1.5rem;
+}
+
+.my-feed__visionary-page-title {
+    font-size: 4rem;
+    margin: 4rem 2.5rem;
+}
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: #09153a;
+        padding: 20px;
+    }
+
+    footer h4 {
+        /*width: 100%;*/
+        color: #ffffff;
+        font-size: 36px;
+        font-weight: 700;
+        text-align: center;
+        padding: 5px;
+    }
+
+    footer img {
+        width: 50px;
+        height: 50px;
+    }
+
+    @media screen and (min-width: 300px) and (max-width: 760px) {
+        .echelon-prices {
+            font-size: 16px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+            padding: 10px;
+        }
+    }
+
+    @media screen and (min-width: 760px) and (max-width: 900px) {
+        .echelon-prices {
+            font-size: 16px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: auto;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+            padding: 10px;
+        }
+    }
